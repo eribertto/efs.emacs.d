@@ -264,10 +264,11 @@
   (setq org-log-done 'time)
   (setq org-log-into-drawer t)
 
+  ;; make sure the below folders/files exists in your home dir
   (setq org-agenda-files
-        '("~/Projects/Code/emacs-from-scratch/OrgFiles/Tasks.org"
-          "~/Projects/Code/emacs-from-scratch/OrgFiles/Habits.org"
-          "~/Projects/Code/emacs-from-scratch/OrgFiles/Birthdays.org"))
+        '("~/org/Tasks/tasks.org"
+          "~/org/Habits/habits.org"
+          "~/org/Birthdays/birthdays.org"))
 
   (require 'org-habit)
   (add-to-list 'org-modules 'org-habit)
