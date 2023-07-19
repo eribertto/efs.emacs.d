@@ -110,6 +110,8 @@
     "tt" '(counsel-load-theme :which-key "choose theme")
     "fde" '(lambda () (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))))
 
+;; TODO: consider to install evil-escape
+;; https://github.com/syl20bnr/evil-escape#evil-escape
 (use-package evil
   :init
   (setq evil-want-integration t)
@@ -609,3 +611,8 @@
 
 ;; Make gc pauses faster by decreasing the threshold.
 (setq gc-cons-threshold (* 2 1000 1000))
+
+;; /home/eribertto/.emacs.d/myElisps
+;; load my elisps files
+
+(setq load-path (cons "~/.emacs.d/myElisps" load-path))
