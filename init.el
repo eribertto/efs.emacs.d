@@ -61,10 +61,10 @@
 (setq inhibit-startup-message t)
 
 ;;(scroll-bar-mode -1)        ; Disable visible scrollbar
-(tooltip-mode -1)           ; Disable tooltips
+;;(tooltip-mode -1)           ; Disable tooltips
 ;;(set-fringe-mode 10)        ; Give some breathing room
-(menu-bar-mode 1)            ; Disable the menu bar
-(tool-bar-mode 1)          ; Disable the toolbar
+;; (menu-bar-mode 1)            ; Disable the menu bar
+;;(tool-bar-mode 1)          ; Disable the toolbar
 
 ;; Set up the visible bell
 (setq visible-bell t)
