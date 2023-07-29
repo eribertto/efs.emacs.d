@@ -602,6 +602,7 @@
   ;; Doesn't work as expected!
   ;;(add-to-list 'dired-open-functions #'dired-open-xdg t)
   (setq dired-open-extensions '(("png" . "feh")
+				("pdf" . "sioyek")
                                 ("mkv" . "mpv"))))
 
 (use-package dired-hide-dotfiles
