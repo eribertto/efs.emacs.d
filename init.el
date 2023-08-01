@@ -502,9 +502,12 @@
   ("C-c p" . projectile-command-map)
   :init
   ;; NOTE: Set this to the folder where you keep your Git repos!
-  (when (file-directory-p "~/Projects/Code")
-    (setq projectile-project-search-path '("~/Projects/Code")))
+  (when (file-directory-p "~/GithubRepos")
+    (setq projectile-project-search-path '("~/GithubRepos")))
   (setq projectile-switch-project-action #'projectile-dired))
+
+;; setup auto-save-mode
+(auto-save-mode 1)
 
 (use-package counsel-projectile
   :after projectile
@@ -617,7 +620,8 @@
 ;; /home/eribertto/.emacs.d/myElisps
 ;; load my elisps files
 
-(setq load-path (cons "~/.emacs.d/myElisps" load-path))
+;; (setq load-path (cons "~/.emacs.d/myElisps" load-path))
+(setq load-path (cons "/myElisps" load-path))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
