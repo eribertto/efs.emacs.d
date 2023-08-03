@@ -1,9 +1,15 @@
-(("todo" . [3 0 2 0]))
+(("todo" . [7 0 4 0]))
 --==-- todo
-[Aug 1, 2023] Get sjp to get released land title application in ROD
+[Aug 3, 2023] fyi pulseaudio vol frontends https://wiki.archlinux.org/title/PulseAudio#Front-ends
+[Aug 3, 2023] consider installing pasystray i3 volume adjust https://bbs.archlinux.org/viewtopic.php?id=220357
+[Aug 3, 2023] how to set wallpaper in i3, setup editor/visual env var in this box, make alias for emacsclient, run emacs as daemon on startup or set in systemctl see emacswiki
+[Aug 3, 2023] how to up/down volume in i3
+[Aug 3, 2023] make a function to close other window non focused
 [Sep 25, 2023] eribertos birthday
-[Aug 1, 2023] transfer funds to mymy 10K Mamas aug allowance, 10K to ctb cola help
+[Aug 3, 2023] transfer to ctb 10k mbt for cola assistance
 
 ==--== DONE 
+[DONE Aug 3, 2023] [Aug 1, 2023] transfer funds to mymy 10K Mamas aug allowance
+[DONE Aug 3, 2023] [Aug 1, 2023] Get sjp to get released land title application in ROD
 [DONE Aug 1, 2023] [Aug 1, 2023] make august tracking sheet in google sheets
 [DONE Aug 1, 2023] [Jul 29, 2023] learn more of ivy
