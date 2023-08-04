@@ -1,5 +1,81 @@
 ;; NOTE: this init.el is copied from emacs from scratch youtube series 
-;; date this file is generated? nil i dont know lol :-) check the first git commit
+;; date this file is generated? July 19, 2023
+;; nil i dont know lol :-) check the first git commit
+
+;; the following are copied from https://www.lucacambiaghi.com/vanilla-emacs/readme.html#h:94661C0F-79D0-4CD4-AA3F-CADB0E79398C
+
+(use-package emacs
+  :init
+  (setq inhibit-startup-screen t
+        ;;initial-scratch-message nil
+        sentence-end-double-space nil
+        ring-bell-function 'ignore
+        frame-resize-pixelwise t)
+
+  (setq user-full-name "Eriberto Mendez"
+        user-mail-address "erimendz@gmail.com")
+
+  (setq read-process-output-max (* 1024 1024)) ;; 1mb
+
+  ;; always allow 'y' instead of 'yes'.
+  (defalias 'yes-or-no-p 'y-or-n-p)
+
+  ;; default to utf-8 for all the things
+  (set-charset-priority 'unicode)
+  (setq locale-coding-system 'utf-8
+        coding-system-for-read 'utf-8
+        coding-system-for-write 'utf-8)
+  (set-terminal-coding-system 'utf-8)
+  (set-keyboard-coding-system 'utf-8)
+  (set-selection-coding-system 'utf-8)
+  (prefer-coding-system 'utf-8)
+  (setq default-process-coding-system '(utf-8-unix . utf-8-unix))
+
+  ;; enable recent files mode
+  (recentf-mode t)
+  (setq recentf-exclude `(,(expand-file-name "straight/build/" user-emacs-directory)
+                          ,(expand-file-name "eln-cache/" user-emacs-directory)
+                          ,(expand-file-name "etc/" user-emacs-directory)
+                          ,(expand-file-name "var/" user-emacs-directory)))
+  ;; Make ESC quit ALL prompts
+  (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+  
+  ;; stop emacs from littering the file system with backup files
+  (setq make-backup-files nil
+    auto-save-default nil
+    create-lockfiles nil)
+  ;; see above (setq inhibit-startup-message t)
+  
+  ;; follow symlinks 
+  (setq vc-follow-symlinks t)
+
+  ;; 1 to enable tool bar mode and scroll bar, -1 to disable
+  (when (window-system)
+    (tool-bar-mode 1)
+    (toggle-scroll-bar 1))
+
+  ;; enable winner mode globally for undo/redo window layout changes
+  (winner-mode t)
+
+  (show-paren-mode t)
+
+  ;; less noise when compiling elisp
+  (setq byte-compile-warnings '(not free-vars unresolved noruntime lexical make-local))
+  (setq native-comp-async-report-warnings-errors nil)
+  (setq load-prefer-newer t)
+
+  ;; clean up the mode line
+  (display-time-mode 1)
+  (setq column-number-mode t)
+  
+  ;; use common convention for indentation by default
+  (setq-default indent-tabs-mode t)
+  (setq-default tab-width 2)
+
+  ;; Enable indentation+completion using the TAB key.
+  ;; Completion is often bound to M-TAB.
+  (setq tab-always-indent 'complete)
+  )
 
 ;; You will most likely need to adjust this font size for your system!
 (defvar efs/default-font-size 240)
@@ -58,12 +134,6 @@
 (setq auto-save-file-name-transforms
       `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
 
-;; stop emacs from littering the file system with backup files
-(setq make-backup-files nil
-    auto-save-default nil
-    create-lockfiles nil)
-
-(setq inhibit-startup-message t)
 
 ;;(scroll-bar-mode -1)        ; Disable visible scrollbar
 ;;(tooltip-mode -1)           ; Disable tooltips
@@ -99,8 +169,6 @@
 ;; Set the variable pitch face
 (set-face-attribute 'variable-pitch nil :font "FiraCode Nerd Font Medium" :height efs/default-variable-font-size :weight 'regular)
 
-;; Make ESC quit prompts
-(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
 (use-package general
   :after evil
