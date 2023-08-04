@@ -1,5 +1,5 @@
-;; NOTE: init.el is now generated from Emacs.org.  Please edit that file
-;;       in Emacs and init.el will be generated automatically!
+;; NOTE: this init.el is copied from emacs from scratch youtube series 
+;; date this file is generated? nil i dont know lol :-) check the first git commit
 
 ;; You will most likely need to adjust this font size for your system!
 (defvar efs/default-font-size 240)
@@ -113,6 +113,7 @@
 ;; TODO: consider to install evil-escape
 ;; https://github.com/syl20bnr/evil-escape#evil-escape
 ;; done today august 4, 2023
+(setq evil-want-keybinding nil)
 (use-package evil-escape
   :init
   (setq-default evil-escape-key-sequence "jk")
@@ -124,7 +125,6 @@
 (use-package evil
   :init
   (setq evil-want-integration t)
-  (setq evil-want-keybinding nil)
   (setq evil-want-C-u-scroll t)
   (setq evil-want-C-i-jump nil)
   :config
@@ -531,6 +531,8 @@
 ;; - https://magit.vc/manual/forge/Token-Creation.html#Token-Creation
 ;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
 (use-package forge
+  :init
+  (setq forge-add-default-bindings nil)
   :after magit)
 
 (use-package evil-nerd-commenter
