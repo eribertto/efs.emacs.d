@@ -1,6 +1,7 @@
-(("todo" . [11 0 7 0]))
+(("todo" . [12 0 7 0]))
 --==-- todo
-[Aug 3, 2023] how to set wallpaper in i3, setup editor/visual env var in this box, make alias for emacsclient, run emacs as daemon on startup or set in systemctl see emacswiki
+[Aug 4, 2023] consider resuming coding learning with emacs elisp e.g. open pdf file in vivaldi and set tiling to split
+[Aug 3, 2023] urgent: setup editor/visual env var in this box, make alias for emacsclient, run emacs as daemon on startup or set in systemctl see emacswiki
 [Aug 4, 2023] consider copying code tidbits from patrick delliotts config file to here, see the printout paper
 [Aug 4, 2023] insert this buffer in my journal file and select the links for reference
 [Aug 4, 2023] consider adding better-defaults config in this init file but first do a clean commit in case something breaks
