@@ -58,6 +58,11 @@
 (setq auto-save-file-name-transforms
       `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
 
+;; stop emacs from littering the file system with backup files
+(setq make-backup-files nil
+    auto-save-default nil
+    create-lockfiles nil)
+
 (setq inhibit-startup-message t)
 
 ;;(scroll-bar-mode -1)        ; Disable visible scrollbar
