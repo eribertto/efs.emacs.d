@@ -1,5 +1,8 @@
-(("todo" . [7 0 4 0]))
+(("todo" . [10 0 5 0]))
 --==-- todo
+[Aug 4, 2023] search emacs function how to enable minor mode based on buffer for example electric-pair-mode or evil-escape
+[Aug 4, 2023] plan to install best parens package, see emacswiki https://www.emacswiki.org/emacs/AutoPairs
+[Aug 4, 2023] install evil-escape-key jk kb shortcut
 [Aug 3, 2023] fyi pulseaudio vol frontends https://wiki.archlinux.org/title/PulseAudio#Front-ends
 [Aug 3, 2023] consider installing pasystray i3 volume adjust https://bbs.archlinux.org/viewtopic.php?id=220357
 [Aug 3, 2023] how to set wallpaper in i3, setup editor/visual env var in this box, make alias for emacsclient, run emacs as daemon on startup or set in systemctl see emacswiki
@@ -9,6 +12,7 @@
 [Aug 3, 2023] transfer to ctb 10k mbt for cola assistance
 
 ==--== DONE 
+[DONE Aug 4, 2023] [Aug 4, 2023] install vterm deps libvterm, cmake and setup libvterm shell integration, install vterm package, source the shell
 [DONE Aug 3, 2023] [Aug 1, 2023] transfer funds to mymy 10K Mamas aug allowance
 [DONE Aug 3, 2023] [Aug 1, 2023] Get sjp to get released land title application in ROD
 [DONE Aug 1, 2023] [Aug 1, 2023] make august tracking sheet in google sheets
