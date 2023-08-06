@@ -1,8 +1,6 @@
-(("todo" . [12 0 7 0]))
+(("todo" . [9 0 10 0]))
 --==-- todo
-[Aug 4, 2023] consider resuming coding learning with emacs elisp e.g. open pdf file in vivaldi and set tiling to split
-[Aug 3, 2023] urgent: setup editor/visual env var in this box, make alias for emacsclient, run emacs as daemon on startup or set in systemctl see emacswiki
-[Aug 4, 2023] consider copying code tidbits from patrick delliotts config file to here, see the printout paper
+[Aug 4, 2023] STICKY: consider resuming coding learning with emacs elisp e.g. open pdf file in vivaldi and set tiling to split
 [Aug 4, 2023] insert this buffer in my journal file and select the links for reference
 [Aug 4, 2023] consider adding better-defaults config in this init file but first do a clean commit in case something breaks
 [Aug 4, 2023] search emacs function how to enable minor mode based on buffer for example electric-pair-mode or evil-escape see this link https://stackoverflow.com/questions/6138029/how-to-add-a-hook-to-only-run-in-a-particular-mode?rq=3
@@ -11,9 +9,11 @@
 [Aug 3, 2023] how to up/down volume in i3
 [Aug 3, 2023] make a function to close other window non focused
 [Sep 25, 2023] eribertos birthday
-[Aug 3, 2023] transfer to ctb 10k mbt for cola assistance
 
 ==--== DONE 
+[DONE Aug 6, 2023] [Aug 4, 2023] consider copying code tidbits from patrick delliotts config file to here, see the printout paper
+[DONE Aug 6, 2023] [Aug 3, 2023] urgent: setup editor/visual env var in this box, make alias for emacsclient, run emacs as daemon on startup or set in systemctl see emacswiki
+[DONE Aug 6, 2023] [Aug 3, 2023] transfer to ctb 10k mbt for cola assistance
 [DONE Aug 4, 2023] [Aug 4, 2023] install evil-escape-key jk kb shortcut
 [DONE Aug 4, 2023] [Aug 4, 2023] plan to install best parens package, see emacswiki https://www.emacswiki.org/emacs/AutoPairs
 [DONE Aug 4, 2023] [Aug 4, 2023] install vterm deps libvterm, cmake and setup libvterm shell integration, install vterm package, source the shell
