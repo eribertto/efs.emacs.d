@@ -121,7 +121,7 @@
   (auto-package-update-hide-results t)
   :config
   (auto-package-update-maybe)
-  (auto-package-update-at-time "09:00"))
+  (auto-package-update-at-time "20:30"))
 
 ;; NOTE: If you want to move everything out of the ~/.emacs.d folder
 ;; reliably, set `user-emacs-directory` before loading no-littering!
@@ -589,7 +589,7 @@
   (setq projectile-switch-project-action #'projectile-dired))
 
 ;; setup auto-save-mode
-(auto-save-mode 1)
+;; (auto-save-mode 1)
 
 (use-package counsel-projectile
   :after projectile
