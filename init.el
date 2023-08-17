@@ -183,9 +183,8 @@
     "tt" '(counsel-load-theme :which-key "choose theme")
     "fde" '(lambda () (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))))
 
-;; TODO: consider to install evil-escape
 ;; https://github.com/syl20bnr/evil-escape#evil-escape
-;; done today august 4, 2023
+;; install done today august 4, 2023
 (setq evil-want-keybinding nil)
 (use-package evil-escape
   :init
