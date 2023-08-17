@@ -1,5 +1,6 @@
-(("todo" . [17 0 10 0]))
+(("todo" . [18 0 10 0]))
 --==-- todo
+[Aug 17, 2023] consider installing gnome-shell-extension-pop-shell-git from AUR
 [Aug 17, 2023] plan to top up BDO soa for monthly car amort before Aug22
 [Aug 17, 2023] note there is no i3block file in HOME/.config folder so copy one from EOS i3 github site
 [Aug 17, 2023] fyi the keyring passphrase asked by vivaldi is **kring** duh
