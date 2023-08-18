@@ -1,18 +1,16 @@
-(("todo" . [18 0 10 0]))
+(("todo" . [16 0 15 0]))
 --==-- todo
+[Aug 18, 2023] Check BDO soa for fund transfer from MBT
+[Aug 18, 2023] plan to celeb Papas bday this Aug 24 to include Tita Thels bday as well
 [Aug 17, 2023] consider installing gnome-shell-extension-pop-shell-git from AUR
-[Aug 17, 2023] plan to top up BDO soa for monthly car amort before Aug22
 [Aug 17, 2023] note there is no i3block file in HOME/.config folder so copy one from EOS i3 github site
 [Aug 17, 2023] fyi the keyring passphrase asked by vivaldi is **kring** duh
 [Aug 17, 2023] consider adding better-defaults in emacs init file in use, also how to get rid of emacs poop files littering in HOME
 [Aug 17, 2023] consider switching to Gnome wayland on next login, atm Gnome X11 is in use
-[Aug 17, 2023] setup BT keyboard mouse in this nuc box asap
 [Aug 17, 2023] consider adding command switch to yt-dlp alias in .bash_aliases e.g. switch for file name with list of urls inside it
 [Aug 17, 2023] plan to meet Dante once he is here in the kingdom
 [Aug 4, 2023] STICKY: consider resuming coding learning with emacs elisp e.g. open pdf file in vivaldi and set tiling to split
-[Aug 4, 2023] insert this buffer in my journal file and select the links for reference
 [Aug 4, 2023] consider adding better-defaults config in this init file but first do a clean commit in case something breaks
-[Aug 4, 2023] search emacs function how to enable minor mode based on buffer for example electric-pair-mode or evil-escape see this link https://stackoverflow.com/questions/6138029/how-to-add-a-hook-to-only-run-in-a-particular-mode?rq=3
 [Aug 3, 2023] fyi pulseaudio vol frontends https://wiki.archlinux.org/title/PulseAudio#Front-ends
 [Aug 3, 2023] consider installing pasystray i3 volume adjust https://bbs.archlinux.org/viewtopic.php?id=220357
 [Aug 3, 2023] how to up/down volume in i3
@@ -20,6 +18,11 @@
 [Sep 25, 2023] eribertos birthday
 
 ==--== DONE 
+[DONE Aug 18, 2023] [Aug 4, 2023] search emacs function how to enable minor mode based on buffer for example electric-pair-mode or evil-escape see this link https://stackoverflow.com/questions/6138029/how-to-add-a-hook-to-only-run-in-a-particular-mode?rq=3
+[DONE Aug 18, 2023] [Aug 4, 2023] insert this buffer in my journal file and select the links for reference
+[DONE Aug 18, 2023] [Aug 17, 2023] setup BT keyboard mouse in this nuc box asap
+[DONE Aug 18, 2023] [Aug 18, 2023] fyi completed the emacs basic movement tutorial 
+[DONE Aug 18, 2023] [Aug 17, 2023] plan to top up BDO soa for monthly car amort before Aug22
 [DONE Aug 6, 2023] [Aug 4, 2023] consider copying code tidbits from patrick delliotts config file to here, see the printout paper
 [DONE Aug 6, 2023] [Aug 3, 2023] urgent: setup editor/visual env var in this box, make alias for emacsclient, run emacs as daemon on startup or set in systemctl see emacswiki
 [DONE Aug 6, 2023] [Aug 3, 2023] transfer to ctb 10k mbt for cola assistance
