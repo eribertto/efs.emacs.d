@@ -1,6 +1,5 @@
-(("todo" . [16 0 15 0]))
+(("todo" . [15 0 16 0]))
 --==-- todo
-[Aug 18, 2023] Check BDO soa for fund transfer from MBT
 [Aug 18, 2023] plan to celeb Papas bday this Aug 24 to include Tita Thels bday as well
 [Aug 17, 2023] consider installing gnome-shell-extension-pop-shell-git from AUR
 [Aug 17, 2023] note there is no i3block file in HOME/.config folder so copy one from EOS i3 github site
@@ -18,6 +17,7 @@
 [Sep 25, 2023] eribertos birthday
 
 ==--== DONE 
+[DONE Aug 19, 2023] [Aug 18, 2023] Check BDO soa for fund transfer from MBT
 [DONE Aug 18, 2023] [Aug 4, 2023] search emacs function how to enable minor mode based on buffer for example electric-pair-mode or evil-escape see this link https://stackoverflow.com/questions/6138029/how-to-add-a-hook-to-only-run-in-a-particular-mode?rq=3
 [DONE Aug 18, 2023] [Aug 4, 2023] insert this buffer in my journal file and select the links for reference
 [DONE Aug 18, 2023] [Aug 17, 2023] setup BT keyboard mouse in this nuc box asap
