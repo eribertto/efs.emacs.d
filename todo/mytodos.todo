@@ -1,5 +1,7 @@
-(("todo" . [15 0 16 0]))
+(("todo" . [15 0 17 0]))
 --==-- todo
+[Aug 20, 2023] Plan to visit Dantes location in Half moon beach Abqaiq
+[Aug 20, 2023] Plan to program keys in new RAzer Ornata v3 keyboard in emacs
 [Aug 18, 2023] plan to celeb Papas bday this Aug 24 to include Tita Thels bday as well
 [Aug 17, 2023] consider installing gnome-shell-extension-pop-shell-git from AUR
 [Aug 17, 2023] note there is no i3block file in HOME/.config folder so copy one from EOS i3 github site
@@ -7,16 +9,15 @@
 [Aug 17, 2023] consider adding better-defaults in emacs init file in use, also how to get rid of emacs poop files littering in HOME
 [Aug 17, 2023] consider switching to Gnome wayland on next login, atm Gnome X11 is in use
 [Aug 17, 2023] consider adding command switch to yt-dlp alias in .bash_aliases e.g. switch for file name with list of urls inside it
-[Aug 17, 2023] plan to meet Dante once he is here in the kingdom
 [Aug 4, 2023] STICKY: consider resuming coding learning with emacs elisp e.g. open pdf file in vivaldi and set tiling to split
 [Aug 4, 2023] consider adding better-defaults config in this init file but first do a clean commit in case something breaks
 [Aug 3, 2023] fyi pulseaudio vol frontends https://wiki.archlinux.org/title/PulseAudio#Front-ends
-[Aug 3, 2023] consider installing pasystray i3 volume adjust https://bbs.archlinux.org/viewtopic.php?id=220357
 [Aug 3, 2023] how to up/down volume in i3
 [Aug 3, 2023] make a function to close other window non focused
 [Sep 25, 2023] eribertos birthday
 
 ==--== DONE 
+[DONE Aug 20, 2023] [Aug 17, 2023] plan to meet Dante once he is here in the kingdom
 [DONE Aug 19, 2023] [Aug 18, 2023] Check BDO soa for fund transfer from MBT
 [DONE Aug 18, 2023] [Aug 4, 2023] search emacs function how to enable minor mode based on buffer for example electric-pair-mode or evil-escape see this link https://stackoverflow.com/questions/6138029/how-to-add-a-hook-to-only-run-in-a-particular-mode?rq=3
 [DONE Aug 18, 2023] [Aug 4, 2023] insert this buffer in my journal file and select the links for reference
